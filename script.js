@@ -5,6 +5,7 @@ let score = JSON.parse(localStorage.getItem('score')) || {
 };
 
 updateScoreElement();
+
 function updateScoreElement() {
    document.querySelector(
       '.js-score'
